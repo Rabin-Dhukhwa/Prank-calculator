@@ -19,6 +19,7 @@ body {
   background: var(--trClr);
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

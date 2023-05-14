@@ -81,6 +81,13 @@ const total = () => {
     displayElement.style.background = "red";
     displayElement.style.color = "white";
     displayElement.classList.add("prank");
+
+    const ttl = eval(strToDisplay) + pk;
+    //   console.log(ttl);
+    display(`${ttl} 🤣🤣🤣`);
+    strToDisplay = ttl.toString();
+
+    return;
   }
 
   const ttl = eval(strToDisplay) + pk;
